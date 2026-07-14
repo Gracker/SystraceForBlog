@@ -1,0 +1,498 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/Gracker/SystraceForBlog",
+  "inventory": {
+    "case_count": 10,
+    "artifact_count": 15
+  },
+  "cases": [
+    {
+      "id": "perfetto-aosp-demo-scroll",
+      "title": "AOSP demo app scrolling",
+      "description": "Perfetto case used to explain MainThread and RenderThread work during scrolling.",
+      "scene": "scrolling",
+      "origin": "Legacy article attachment already tracked in this repository; original capture device and owner record were not preserved.",
+      "captured_at": null,
+      "license": null,
+      "consent": null,
+      "privacy_review": "pending",
+      "sanitization_review": "pending",
+      "publication_status": "legacy-published",
+      "article_urls": [
+        "https://www.androidperformance.com/2025/08/02/Android-Perfetto-07-MainThread-And-RenderThread/"
+      ],
+      "artifacts": [
+        {
+          "path": "Android_Perfetto/demo_app_aosp_scroll.perfetto-trace",
+          "content_format": "perfetto-protobuf",
+          "packaging": "raw",
+          "size_bytes": 16609608,
+          "sha256": "bc84c51569be23650325536d46cb846863d11c4406269ed72b8226b258826fbc",
+          "origin": "Legacy article attachment already tracked in this repository; original capture device and owner record were not preserved.",
+          "captured_at": null,
+          "license": null,
+          "consent": null,
+          "privacy_review": "pending",
+          "sanitization_review": "pending",
+          "publication_status": "legacy-published",
+          "article_urls": [
+            "https://www.androidperformance.com/2025/08/02/Android-Perfetto-07-MainThread-And-RenderThread/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "perfetto-wechat-moments-jank",
+      "title": "WeChat Moments scrolling jank",
+      "description": "Perfetto capture and its compressed copy for a WeChat Moments scrolling case.",
+      "scene": "scrolling",
+      "origin": "Legacy article attachment already tracked in this repository; original capture device and owner record were not preserved.",
+      "captured_at": null,
+      "license": null,
+      "consent": null,
+      "privacy_review": "pending",
+      "sanitization_review": "pending",
+      "publication_status": "legacy-published",
+      "article_urls": [],
+      "artifacts": [
+        {
+          "path": "Android_Perfetto/微信朋友圈滑动卡顿.perfetto-trace",
+          "content_format": "perfetto-protobuf",
+          "packaging": "raw",
+          "size_bytes": 52336981,
+          "sha256": "5e4c1805b3d9b1e235842d0472ac30d54e9493427befec058288804fb32347f8",
+          "origin": "Legacy article attachment already tracked in this repository; original capture device and owner record were not preserved.",
+          "captured_at": null,
+          "license": null,
+          "consent": null,
+          "privacy_review": "pending",
+          "sanitization_review": "pending",
+          "publication_status": "legacy-published",
+          "article_urls": []
+        },
+        {
+          "path": "Android_Perfetto/微信朋友圈滑动卡顿.perfetto-trace.zip",
+          "content_format": "perfetto-protobuf",
+          "packaging": "zip",
+          "size_bytes": 13720055,
+          "sha256": "16c0cc9f74c8f13d07d667414b93023e811770bcc6431cbbb1783660ab9c66c8",
+          "archive": {
+            "compressed_size_bytes": 13720055,
+            "uncompressed_size_bytes": 52337202,
+            "member_count": 2
+          },
+          "origin": "Compressed copy of the legacy Perfetto attachment; original capture device and owner record were not preserved.",
+          "captured_at": null,
+          "license": null,
+          "consent": null,
+          "privacy_review": "pending",
+          "sanitization_review": "pending",
+          "publication_status": "legacy-published",
+          "article_urls": []
+        }
+      ]
+    },
+    {
+      "id": "systrace-main-render-wangzhe",
+      "title": "MainThread and RenderThread: 王者荣耀",
+      "description": "Legacy Systrace HTML plus an ART method trace used for MainThread/RenderThread discussion.",
+      "scene": "rendering",
+      "origin": "Legacy article attachment already tracked in this repository; original capture device and owner record were not preserved.",
+      "captured_at": null,
+      "license": null,
+      "consent": null,
+      "privacy_review": "pending",
+      "sanitization_review": "pending",
+      "publication_status": "legacy-published",
+      "article_urls": [
+        "https://www.androidperformance.com/2019/11/06/Android-Systrace-MainThread-And-RenderThread/"
+      ],
+      "artifacts": [
+        {
+          "path": "Android_Systrace-MainThread-RenderThread/cpu-art-20191109T150811-wangzherongyao.trace",
+          "content_format": "art-method-trace",
+          "packaging": "raw",
+          "size_bytes": 1310872,
+          "sha256": "3a3b85bccc9fdde72d81a6831008a4c002278c24bc68453681e9be13bbac57b3",
+          "origin": "Legacy article attachment already tracked in this repository; the filename contains a timestamp-like token, but no authoritative capture record was preserved.",
+          "captured_at": null,
+          "license": null,
+          "consent": null,
+          "privacy_review": "pending",
+          "sanitization_review": "pending",
+          "publication_status": "legacy-published",
+          "article_urls": [
+            "https://www.androidperformance.com/2019/11/06/Android-Systrace-MainThread-And-RenderThread/"
+          ]
+        },
+        {
+          "path": "Android_Systrace-MainThread-RenderThread/wangzherongyao.html.zip",
+          "content_format": "legacy-systrace-html",
+          "packaging": "zip",
+          "size_bytes": 2208025,
+          "sha256": "3bd3f43eed21a0a55a1d5ef9b6cca98ac1609c8ea082a175d50edc7f29c54471",
+          "archive": {
+            "compressed_size_bytes": 2208025,
+            "uncompressed_size_bytes": 18480406,
+            "member_count": 1
+          },
+          "origin": "Legacy article attachment already tracked in this repository; original capture device and owner record were not preserved.",
+          "captured_at": null,
+          "license": null,
+          "consent": null,
+          "privacy_review": "pending",
+          "sanitization_review": "pending",
+          "publication_status": "legacy-published",
+          "article_urls": [
+            "https://www.androidperformance.com/2019/11/06/Android-Systrace-MainThread-And-RenderThread/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "systrace-main-render-flutter-wanandroid",
+      "title": "MainThread and RenderThread: Flutter WanAndroid",
+      "description": "Legacy Systrace HTML plus an ART method trace for a Flutter rendering case.",
+      "scene": "rendering",
+      "origin": "Legacy article attachment already tracked in this repository; original capture device and owner record were not preserved.",
+      "captured_at": null,
+      "license": null,
+      "consent": null,
+      "privacy_review": "pending",
+      "sanitization_review": "pending",
+      "publication_status": "legacy-published",
+      "article_urls": [
+        "https://www.androidperformance.com/2019/11/06/Android-Systrace-MainThread-And-RenderThread/"
+      ],
+      "artifacts": [
+        {
+          "path": "Android_Systrace-MainThread-RenderThread/cpu-art-20191109T160619-flutter-wanandroid.trace",
+          "content_format": "art-method-trace",
+          "packaging": "raw",
+          "size_bytes": 2030165,
+          "sha256": "7752f229c519cf84ca991decb188985af7555630087cc78c3d61bf190ae9784b",
+          "origin": "Legacy article attachment already tracked in this repository; the filename contains a timestamp-like token, but no authoritative capture record was preserved.",
+          "captured_at": null,
+          "license": null,
+          "consent": null,
+          "privacy_review": "pending",
+          "sanitization_review": "pending",
+          "publication_status": "legacy-published",
+          "article_urls": [
+            "https://www.androidperformance.com/2019/11/06/Android-Systrace-MainThread-And-RenderThread/"
+          ]
+        },
+        {
+          "path": "Android_Systrace-MainThread-RenderThread/flutter-wanandroid.html.zip",
+          "content_format": "legacy-systrace-html",
+          "packaging": "zip",
+          "size_bytes": 2514377,
+          "sha256": "425ccbcf6461f78c7e8ecd400613aaf6c6aeed3718e50282abf04b9064700754",
+          "archive": {
+            "compressed_size_bytes": 2514377,
+            "uncompressed_size_bytes": 20508291,
+            "member_count": 1
+          },
+          "origin": "Legacy article attachment already tracked in this repository; original capture device and owner record were not preserved.",
+          "captured_at": null,
+          "license": null,
+          "consent": null,
+          "privacy_review": "pending",
+          "sanitization_review": "pending",
+          "publication_status": "legacy-published",
+          "article_urls": [
+            "https://www.androidperformance.com/2019/11/06/Android-Systrace-MainThread-And-RenderThread/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "systrace-binder-app-launch",
+      "title": "Binder during app launch",
+      "description": "Legacy Systrace HTML for the Binder analysis article.",
+      "scene": "binder",
+      "origin": "Legacy article attachment already tracked in this repository; original capture device and owner record were not preserved.",
+      "captured_at": null,
+      "license": null,
+      "consent": null,
+      "privacy_review": "pending",
+      "sanitization_review": "pending",
+      "publication_status": "legacy-published",
+      "article_urls": [
+        "https://www.androidperformance.com/2019/12/06/Android-Systrace-Binder/"
+      ],
+      "artifacts": [
+        {
+          "path": "Android_Systrace_Binder/App_lunch.html.zip",
+          "content_format": "legacy-systrace-html",
+          "packaging": "zip",
+          "size_bytes": 4754928,
+          "sha256": "276c34d37da8cfa4b3f1c3664b1709e8d0c04a57e8081f65e6f838b7fb1bfbdd",
+          "archive": {
+            "compressed_size_bytes": 4754928,
+            "uncompressed_size_bytes": 42142950,
+            "member_count": 1
+          },
+          "origin": "Legacy article attachment already tracked in this repository; original capture device and owner record were not preserved.",
+          "captured_at": null,
+          "license": null,
+          "consent": null,
+          "privacy_review": "pending",
+          "sanitization_review": "pending",
+          "publication_status": "legacy-published",
+          "article_urls": [
+            "https://www.androidperformance.com/2019/12/06/Android-Systrace-Binder/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "systrace-input-launcher-scroll",
+      "title": "Input pipeline: launcher scroll",
+      "description": "Legacy Systrace HTML for launcher scrolling through the Android input pipeline.",
+      "scene": "input",
+      "origin": "Legacy article attachment already tracked in this repository; original capture device and owner record were not preserved.",
+      "captured_at": null,
+      "license": null,
+      "consent": null,
+      "privacy_review": "pending",
+      "sanitization_review": "pending",
+      "publication_status": "legacy-published",
+      "article_urls": [
+        "https://www.androidperformance.com/2019/11/04/Android-Systrace-Input/"
+      ],
+      "artifacts": [
+        {
+          "path": "Android_Systrace_Input/trace_input_blog_launcher_scroll.html.zip",
+          "content_format": "legacy-systrace-html",
+          "packaging": "zip",
+          "size_bytes": 1712252,
+          "sha256": "052faa3e15f0bebe70df7ce350ebe5308c515ea2b868ddb0f40f2e17f1fb613e",
+          "archive": {
+            "compressed_size_bytes": 1712252,
+            "uncompressed_size_bytes": 14496576,
+            "member_count": 1
+          },
+          "origin": "Legacy article attachment already tracked in this repository; original capture device and owner record were not preserved.",
+          "captured_at": null,
+          "license": null,
+          "consent": null,
+          "privacy_review": "pending",
+          "sanitization_review": "pending",
+          "publication_status": "legacy-published",
+          "article_urls": [
+            "https://www.androidperformance.com/2019/11/04/Android-Systrace-Input/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "systrace-input-list-jank",
+      "title": "Input pipeline: list jank",
+      "description": "Legacy Systrace HTML for a janky list interaction through the Android input pipeline.",
+      "scene": "input",
+      "origin": "Legacy article attachment already tracked in this repository; original capture device and owner record were not preserved.",
+      "captured_at": null,
+      "license": null,
+      "consent": null,
+      "privacy_review": "pending",
+      "sanitization_review": "pending",
+      "publication_status": "legacy-published",
+      "article_urls": [
+        "https://www.androidperformance.com/2019/11/04/Android-Systrace-Input/"
+      ],
+      "artifacts": [
+        {
+          "path": "Android_Systrace_Input/trace_input_blog_list_jank.html.zip",
+          "content_format": "legacy-systrace-html",
+          "packaging": "zip",
+          "size_bytes": 3866597,
+          "sha256": "12ed237aaa3e0176e4fa0e0e84d2c4398f987041fb943f1dd8e805e84ed4c415",
+          "archive": {
+            "compressed_size_bytes": 3866597,
+            "uncompressed_size_bytes": 34419972,
+            "member_count": 1
+          },
+          "origin": "Legacy article attachment already tracked in this repository; original capture device and owner record were not preserved.",
+          "captured_at": null,
+          "license": null,
+          "consent": null,
+          "privacy_review": "pending",
+          "sanitization_review": "pending",
+          "publication_status": "legacy-published",
+          "article_urls": [
+            "https://www.androidperformance.com/2019/11/04/Android-Systrace-Input/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "systrace-smooth-launchers",
+      "title": "Smoothness in action: launcher comparisons",
+      "description": "Legacy Systrace HTML cases for OPPO and Xiaomi launcher scrolling.",
+      "scene": "scrolling",
+      "origin": "Legacy article attachments already tracked in this repository; original capture device and owner records were not preserved.",
+      "captured_at": null,
+      "license": null,
+      "consent": null,
+      "privacy_review": "pending",
+      "sanitization_review": "pending",
+      "publication_status": "legacy-published",
+      "article_urls": [
+        "https://www.androidperformance.com/2021/04/24/android-systrace-smooth-in-action-1/",
+        "https://www.androidperformance.com/2021/04/24/android-systrace-smooth-in-action-2/",
+        "https://www.androidperformance.com/2021/04/24/android-systrace-smooth-in-action-3/"
+      ],
+      "artifacts": [
+        {
+          "path": "Android_Systrace_Smooth_In_Action/oppo_launcher_scroll.zip",
+          "content_format": "legacy-systrace-html",
+          "packaging": "zip",
+          "size_bytes": 4285089,
+          "sha256": "bb6cd5b82b22d00c1103eeb5c9fdd2d65c8414421f8033bc48e3e6c71778ff59",
+          "archive": {
+            "compressed_size_bytes": 4285089,
+            "uncompressed_size_bytes": 42834517,
+            "member_count": 1
+          },
+          "origin": "Legacy article attachment already tracked in this repository; original capture device and owner record were not preserved.",
+          "captured_at": null,
+          "license": null,
+          "consent": null,
+          "privacy_review": "pending",
+          "sanitization_review": "pending",
+          "publication_status": "legacy-published",
+          "article_urls": [
+            "https://www.androidperformance.com/2021/04/24/android-systrace-smooth-in-action-1/",
+            "https://www.androidperformance.com/2021/04/24/android-systrace-smooth-in-action-2/",
+            "https://www.androidperformance.com/2021/04/24/android-systrace-smooth-in-action-3/"
+          ]
+        },
+        {
+          "path": "Android_Systrace_Smooth_In_Action/xiaomi_launcher.zip",
+          "content_format": "legacy-systrace-html",
+          "packaging": "zip",
+          "size_bytes": 2895627,
+          "sha256": "21eaca39ff8582a600115fe219146f16d987612b1f01742ed33dc6111cbdd2bf",
+          "archive": {
+            "compressed_size_bytes": 2895627,
+            "uncompressed_size_bytes": 28462798,
+            "member_count": 1
+          },
+          "origin": "Legacy article attachment already tracked in this repository; original capture device and owner record were not preserved.",
+          "captured_at": null,
+          "license": null,
+          "consent": null,
+          "privacy_review": "pending",
+          "sanitization_review": "pending",
+          "publication_status": "legacy-published",
+          "article_urls": [
+            "https://www.androidperformance.com/2021/04/24/android-systrace-smooth-in-action-1/",
+            "https://www.androidperformance.com/2021/04/24/android-systrace-smooth-in-action-2/",
+            "https://www.androidperformance.com/2021/04/24/android-systrace-smooth-in-action-3/"
+          ]
+        },
+        {
+          "path": "Android_Systrace_Smooth_In_Action/xiaomi_launcher_scroll_all_the_time.zip",
+          "content_format": "legacy-systrace-html",
+          "packaging": "zip",
+          "size_bytes": 3348256,
+          "sha256": "6f96cf3e973709f8c09dc1a7ab4cfc12de89031ea4c4642ddb93fcf9f353bda7",
+          "archive": {
+            "compressed_size_bytes": 3348256,
+            "uncompressed_size_bytes": 32555418,
+            "member_count": 1
+          },
+          "origin": "Legacy article attachment already tracked in this repository; original capture device and owner record were not preserved.",
+          "captured_at": null,
+          "license": null,
+          "consent": null,
+          "privacy_review": "pending",
+          "sanitization_review": "pending",
+          "publication_status": "legacy-published",
+          "article_urls": [
+            "https://www.androidperformance.com/2021/04/24/android-systrace-smooth-in-action-1/",
+            "https://www.androidperformance.com/2021/04/24/android-systrace-smooth-in-action-2/",
+            "https://www.androidperformance.com/2021/04/24/android-systrace-smooth-in-action-3/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "systrace-twitter-jank",
+      "title": "Twitter scrolling jank",
+      "description": "Legacy Systrace HTML for a Twitter jank case.",
+      "scene": "scrolling",
+      "origin": "Legacy article attachment already tracked in this repository; original capture device and owner record were not preserved.",
+      "captured_at": null,
+      "license": null,
+      "consent": null,
+      "privacy_review": "pending",
+      "sanitization_review": "pending",
+      "publication_status": "legacy-published",
+      "article_urls": [],
+      "artifacts": [
+        {
+          "path": "Android_Systrace_Smooth_In_Action/2022-03-07-Twitter-Jank.html.zip",
+          "content_format": "legacy-systrace-html",
+          "packaging": "zip",
+          "size_bytes": 8175079,
+          "sha256": "76cc9ff341901acf4dc192be7aabd2fb923ab25b61b8d9c2049bacb506262355",
+          "archive": {
+            "compressed_size_bytes": 8175079,
+            "uncompressed_size_bytes": 79298428,
+            "member_count": 2
+          },
+          "origin": "Legacy article attachment already tracked in this repository; original capture device and owner record were not preserved.",
+          "captured_at": null,
+          "license": null,
+          "consent": null,
+          "privacy_review": "pending",
+          "sanitization_review": "pending",
+          "publication_status": "legacy-published",
+          "article_urls": []
+        }
+      ]
+    },
+    {
+      "id": "systrace-triple-buffer",
+      "title": "Double and triple buffering",
+      "description": "Five legacy Systrace HTML cases packaged together for the triple-buffer article.",
+      "scene": "rendering",
+      "origin": "Legacy article attachments already tracked in this repository; original capture device and owner records were not preserved.",
+      "captured_at": null,
+      "license": null,
+      "consent": null,
+      "privacy_review": "pending",
+      "sanitization_review": "pending",
+      "publication_status": "legacy-published",
+      "article_urls": [
+        "https://www.androidperformance.com/2019/12/15/Android-Systrace-Triple-Buffer/"
+      ],
+      "artifacts": [
+        {
+          "path": "Android_Systrace_TripleBuffer/Systrace_Demo.zip",
+          "content_format": "legacy-systrace-html",
+          "packaging": "zip",
+          "size_bytes": 10906203,
+          "sha256": "ce7c5239cc21baed0a4227a51a75c5318948d303e989e12da3a9872f55d0460f",
+          "archive": {
+            "compressed_size_bytes": 10906203,
+            "uncompressed_size_bytes": 91249213,
+            "member_count": 5
+          },
+          "origin": "Legacy article attachments already tracked in this repository; original capture device and owner records were not preserved.",
+          "captured_at": null,
+          "license": null,
+          "consent": null,
+          "privacy_review": "pending",
+          "sanitization_review": "pending",
+          "publication_status": "legacy-published",
+          "article_urls": [
+            "https://www.androidperformance.com/2019/12/15/Android-Systrace-Triple-Buffer/"
+          ]
+        }
+      ]
+    }
+  ]
+}

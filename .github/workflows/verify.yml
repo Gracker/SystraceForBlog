@@ -1,0 +1,23 @@
+name: Verify trace catalog
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate metadata, hashes, and archive boundaries
+        run: python3 scripts/validate_catalog.py
+      - name: Unit tests
+        run: python3 -m unittest discover -s tests -v
